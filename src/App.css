@@ -1,21 +1,18 @@
 .App {
   text-align: center;
+  --font-light: #f5f5f7;
+  color: var(--font-light);
 }
 .repos {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
   align-items: center;
   margin: auto;
   justify-content: space-evenly;
-
 }
 @media screen and (max-width: 720px) {
   .repos {
     flex-direction: column;
-  }
-  .repo {
-    width: 90%;
   }
 }
 .repo {
@@ -38,4 +35,7 @@
 .repo-name {
   font-weight: 700;
   font-size: 20px;
+}
+.body {
+  background: #f2f2f2;
 }
